@@ -1,0 +1,43 @@
+
+.navbar{
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ display:flex;
+ justify-content: center;
+ font-size: 2.3vh;
+ background-color: hsla(0, 0%, 97%, .9)
+
+}
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 6vh;
+}
+a:hover{
+  color: rgb(0, 140, 255);
+  
+}
+body {
+  background: #eee
+}
+
+.ratings i {
+  color: green
+}
+
+.install span {
+  font-size: 12px
+}
+
+.col-md-4 {
+  margin-top: 27px
+}
+
+body{
+  background-image:url('https://miro.medium.com/max/1838/0*eMFAGkbxttKEA3wa.png');
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}

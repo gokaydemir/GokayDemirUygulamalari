@@ -1,0 +1,119 @@
+body {
+    background-image:url('photo-1580582932707-520aed937b7b.avif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    color: #333;
+    font-size: .4rem;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .01rem;
+    line-height: 2;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    
+
+}
+ol, ul {
+    list-style-position: inside;
+    background-color: hsla(0, 0%, 97%, .9);
+    padding: 2vh;
+    
+}
+input{
+    font-size: .4rem;
+    padding: 200px;
+    box-shadow: 0.03rem 0.1rem 0.15rem 0 rgb(0 0 0 / 8%);
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 5px 10px;
+    border-radius: 2px;
+    margin: 20000px;
+    writing-mode: horizontal-tb !important;
+
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    outline: none;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+.numara{
+    width: 2.5rem;
+    margin: 2vh;
+}
+ol>li>label {
+    font-weight: 700;
+    min-width: 4.3rem;
+    white-space: nowrap;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ol {
+    list-style-type: none;
+}
+input[type=email], input[type=number], input[type=text], select, textarea {
+    font-size: .4rem;
+    padding: 0.15rem;
+    box-shadow: 0.03rem 0.1rem 0.15rem 0 rgba(25, 0, 250, 0.08);
+    
+    margin-top:.5vh ;
+}
+.btn{
+    font-size: 1.5vh;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    
+}
+.button{
+    padding: 2vh;
+}
+.orn{
+    padding: 5vh;
+}
+#sonuc{
+    padding: 1.5vh;;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    color:white;
+    font-family: 'BhuTuka Expanded One', cursive;
+
+}
+#kutlama{
+    background-color: rgb(245, 1, 1);
+    color:white;
+}
+
+.navbar{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display:flex;
+   justify-content: center;
+   font-size: 2.2vh;
+   background-color: hsla(0, 0%, 97%, .9)
+
+}
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 6vh;
+}
+a:hover{
+    color: rgb(0, 140, 255);
+    
+}

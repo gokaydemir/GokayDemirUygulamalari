@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 69, 218), rgb(82, 122, 233))
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    margin:.5vh 62vh;
+}
+#text{
+    outline: none;
+    padding: 15px;
+    
+    
+}
+#demo{
+    display: flex;
+    justify-content: center;
+    padding-top:4vh ;
+    color: white;
+   
+    
+}
+#buton{
+    margin-left:.2vh;
+}
+.navbar{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display:flex;
+   justify-content: center;
+   font-size: 2.4vh;
+   background-color: hsla(0, 0%, 97%, .9)
+
+}
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    margin-left: 6vh;
+}
+a:hover{
+    color: rgb(0, 140, 255);
+    
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:14vh ;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+
+
+}

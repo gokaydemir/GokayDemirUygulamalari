@@ -1,0 +1,103 @@
+:root{
+    --main-color:rgba(41,128,185,1.0);
+    --main-color-light:rgba(41,128,185,0.2);
+    --accent-color:rgba(243,156,18,1.0);
+    --accent-color-light:rgba(243,156,18,0.5);
+}
+
+body{
+    background-image: linear-gradient(to bottom right,var(--main-color),var(--main-color-light));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  
+
+}
+.header,.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 16vh;
+    margin: .5rem;
+    
+   
+}
+.form-item{
+padding:.5rem;
+font-size:1.5rem ;
+border: none;
+background-color:white;
+outline: none;
+
+}
+.btn{
+    cursor: pointer;
+    color: var(--accent-color);
+}
+.btn:hover{
+    color:white;
+    background-color: var(--accent-color);
+}
+.gorev-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gorev-listesi{
+list-style: none;
+min-width: 40%;
+
+}
+.gorev-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:.5rem;
+    font-size:1.2rem;
+    background-color: white;
+    transition: .5s ease-in-out;
+}
+.gorev-tanimi{
+    flex: 1;
+    padding: .5rem;
+}
+.gorev-btn{
+    background-color: var(--accent-color);
+    outline: none;
+    cursor: pointer;
+    border:none;font-size: 1.2rem;
+    padding: .6rem;
+    
+}
+.gorev-btn-sil{
+    background-color:red;
+}
+.gorev-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.far{
+    pointer-events: none;
+}
+.kaybol{
+    transform:scale(0);
+}
+
+.navbar{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display:flex;
+   justify-content: center;
+   font-size: 2.1vh;
+   background-color: hsla(0, 0%, 97%, .9)
+
+}
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 6vh;
+}
+a:hover{
+    color: rgb(0, 140, 255);
+    
+}

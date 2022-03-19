@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to right, rgb(208, 243, 230) , rgb(156, 215, 253));
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:15vh ;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:14vh ;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+#demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:4vh ;
+}
+#vize{
+    outline: none;
+    padding: 5px 5px;
+    border:none;
+    border-radius: 3px;
+    margin-right:.5vh
+}
+#final{
+    outline: none;
+    padding: 5px 5px;
+    border:none;
+    border-radius: 3px;
+    margin-right:.5vh
+}
+.buton{
+    outline: none;
+    padding: 5px 5px;
+    border:none;
+    border-radius: 3px;
+    margin-right:.5vh;
+    cursor:pointer;
+    background-color: white;
+}
+.buton:hover{
+    opacity: 0.8;
+    background-color: rgb(221, 216, 207);
+}
+.navbar{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display:flex;
+   justify-content: center;
+   font-size: 2.4vh;
+   background-color: hsla(0, 0%, 97%, .9)
+
+}
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    margin-left: 6vh;
+}
+a:hover{
+    color: rgb(0, 140, 255);
+    
+}
